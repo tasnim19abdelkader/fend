@@ -12,7 +12,16 @@
  * JS Standard: ESlint
  * 
 */
-
+class section {
+  lastsectionid = 0;
+  
+  get seactionhtmlconten () {
+    return 
+    <section id="section ${this.lastscetionid}" data-nav="section ${this. lastsectionid}" class="your-active-class">
+      <div class ="landing__container">
+        <h2>section ${this.lastscetionid}</h2>
+    
+ 
 /**
  * Comments should be present at the beginning of each procedure and class.
  * Great to have comments before crucial code sections within the procedure.
